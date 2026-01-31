@@ -1,0 +1,125 @@
+body{
+    padding-top: 85px;
+    padding-bottom: 1000px;
+    background-color: rgb(243, 241, 241);
+    padding-left: 100px;
+    
+}
+.side-bar{
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    
+    
+    background-color: white;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: flex-start;
+    padding-left: 30px;
+
+}
+.hamburger-menu-button{
+    width: 45px;
+    background-color: white;
+    border-width: 0;
+
+}
+
+.youtube-logo-button{
+    width: 135px;
+    background-color: white;
+    border-width: 0;
+    margin-left: 20px;
+}
+.div-header{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    
+    position: fixed;
+    background-color: white;
+    top: 0;
+    
+    left: 0;
+    right: 0;
+    border-bottom-width: 10px;
+    border-bottom-color: rgb(0, 0, 0);
+    height: 60px;
+    z-index: 100;
+}
+
+.middle-header{
+    display: flex;
+    align-items: center;
+   
+    flex: 1;
+}
+.search-box{
+    width: 200px;
+    height: 45px;
+    max-width: 400px;
+    flex: auto;
+    border-radius: 20px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: grey;
+    padding-left: 15px;
+    font-size: 15px;
+    height: 30px;
+}
+
+.search-div{
+    width: 33.9px;
+    height: 33.2px;
+    background-color: rgb(241, 239, 239);
+    border-width: 0.4px;
+    border-color: gray;
+    margin-left: -34.1px;
+    border-radius: 30px;
+
+}
+
+
+.voice-search-icon-div{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(234, 233, 233);
+    border-width: 0;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.right-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.upload-div{
+    width: 40px;
+    background-color: white;
+    border-width: 0;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+
+    align-items: center;
+    border-radius: 25px;
+    border-width: 0;
+    
+}
+.notifications-div{
+    width: 40px;
+    background-color: white;
+    border-width: 0;
+}
+.youtube-apps-div{
+    width: 40px;
+    background-color: white;
+    border-width: 0;
+}

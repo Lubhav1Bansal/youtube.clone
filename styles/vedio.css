@@ -1,0 +1,72 @@
+.video{
+    display: flex;
+    flex-direction: column;
+}
+.thumnail{
+    width: 100%;
+     
+    border-radius: 10px;
+    
+}
+.div-thumnail{
+    position: relative;   
+}
+
+.time{
+    position: absolute;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    right: 10px;
+    bottom: 10px;
+    padding: 3px 3px;
+}
+.notifications-count{
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    font-size: 13px;
+}
+
+.div-notifications{
+    position: relative;
+}
+.channels-profile{
+    width: 36px;
+    border-radius: 25px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.video-title{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+p{
+    color: #5f5f5f;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.div-video-info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+
